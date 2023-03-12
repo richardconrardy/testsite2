@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on Cap&#39;n Hugo Relearrrn Theme</title>
+    <link>https://example.com/pir/basics.html</link>
+    <description>Recent content in Basics on Cap&#39;n Hugo Relearrrn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://example.com/pir/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s New</title>
+      <link>https://example.com/pir/basics/migration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/migration.html</guid>
+      <description>Arrr! Pirrrates Fello&#39; pirrrates, grog made us dizzy! Be awarrre some stuff may not work in this trrranslat&#39;n. Like see&#39;n Merrrmaids, do&#39;n math or chemistrrry, writ&#39;n docs and stuff.
+This document shows ye what&amp;rsquo;s new &#39;n th&#39; latest release. For a detailed list o&#39; changes, see th&#39; history plank.
+0.95.0 Th&#39; minimum required Cap&#39;n Hugo version.
+Break&#39;n A change that requires act&#39;n by ye aft upgrad&#39;n t&#39; assure th&#39; ship be still functional.</description>
+    </item>
+    <item>
+      <title>Requirrrements</title>
+      <link>https://example.com/pir/basics/requirements.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/requirements.html</guid>
+      <description>Thanks t&#39; th&#39; simplicity o&#39; Cap&#39;n Hugo, this plank be as empty as this theme needs requirements.
+Just download at least version 0.95.0 o&#39; th&#39; Cap&#39;n Hugo binary fer yer OS (Windows, Linux, Mac).</description>
+    </item>
+    <item>
+      <title>Installat&#39;n</title>
+      <link>https://example.com/pir/basics/installation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/installation.html</guid>
+      <description>Th&#39; follow&#39;n steps be here t&#39; help ye initialize yer new website. If ye don&amp;rsquo;t know Cap&#39;n Hugo at all, we strongly suggest ye learn more about it by follow&#39;n this great documentat&#39;n fer beginners.
+Create yer project Cap&#39;n Hugo provides a new command t&#39; create a new website.
+hugo new ship &amp;lt;new_project&amp;gt; Install th&#39; theme Install th&#39; Relearrrn theme by follow&#39;n this documentat&#39;n us&#39;n Hugo&amp;rsquo;s module system.
+This theme&amp;rsquo;s repository be: https://github.</description>
+    </item>
+    <item>
+      <title>Configurrrat&#39;n</title>
+      <link>https://example.com/pir/basics/configuration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/configuration.html</guid>
+      <description>Global ship parameters On top o&#39; Cap&#39;n Hugo global configurat&#39;n, th&#39; Relearrrn theme lets ye define th&#39; follow&#39;n parameters &#39;n yer config.toml (here, values be default).
+Avast that some o&#39; these parameters be explained &#39;n details &#39;n other sections o&#39; this documentat&#39;n.
+[params] # This controls whether submenus will be expanded (true), or collapsed (false) &#39;n th&#39; # menu; if no sett&#39;n be given, th&#39; first menu level be set t&#39; false, all others t&#39; true; # this can be overridden &#39;n th&#39; planks frontmatter alwaysopen = true # Prefix URL t&#39; edit current plank.</description>
+    </item>
+    <item>
+      <title>Customizat&#39;n</title>
+      <link>https://example.com/pir/basics/customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/customization.html</guid>
+      <description>Th&#39; Relearrrn theme has been built t&#39; be as configur&#39;ble as poss&#39;ble by defin&#39;n multiple partials
+In themes/hugo-theme-relearn/layouts/partials/, ye will find all th&#39; partials defined fer this theme. If ye need t&#39; overwrite someth&#39;n, don&amp;rsquo;t change th&#39; code directly. Instead follow this plank. You&amp;rsquo;d create a new partial &#39;n th&#39; layouts/partials folder o&#39; yer local project. This partial will have th&#39; priority.
+This theme defines th&#39; follow&#39;n partials :</description>
+    </item>
+    <item>
+      <title>Stylesheet generrrat&#39;r</title>
+      <link>https://example.com/pir/basics/generator.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/generator.html</guid>
+      <description>This interactive tool may help ye t&#39; generate yer own color variant stylesheet.
+Show usage instruct&#39;ns T&#39; get started, first select a color variant from th&#39; variant switch &#39;n th&#39; lower left sidebar that fits ye best as a start&#39;n point.
+Th&#39; graph be interactive an&#39; reflect th&#39; current colors. Ye can click on any o&#39; th&#39; colored boxes t&#39; adjust th&#39; respective color. Th&#39; graph an&#39; th&#39; plank will update accordingly.</description>
+    </item>
+    <item>
+      <title>Historrry</title>
+      <link>https://example.com/pir/basics/history.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/pir/basics/history.html</guid>
+      <description>Changelog 5.12.2 (2023-03-03) Fixes [bug] menu: fix state fer alwaysopen=false + collapsibleMenu=false #498 5.12.1 (2023-02-26) Enhancements [feature] variant: add relearn bright theme #493 Fixes [bug] generator: fix sett&#39;n o&#39; colors #494 5.12.0 (2023-02-24) Enhancements [feature] frontmatter: support VSCode Front Matter extension #481 [feature] theme: make expand an&#39; image ids st&#39;ble #477 [feature] variant: set scrollbar color t&#39; dark fer dark variants #471 [feature] i18n: add full RTL support #470 [feature] piratify: fix some quirks, arrr #469 [feature][change] theme: optimizat&#39;n fer huge screen sizes #466 Fixes [bug] i18n: write code ltr even fer rtl languages #492 [bug] anchor: fix link &#39;n FF when served from filesystem #482 [bug] shorrrtcodes: don&amp;rsquo;t break build an&#39; render fer invalid parameters #480 [bug] nav: restore scroll posit&#39;n on browser back #476 [bug] variant: avoid style leak fer auto style #473 Maintenance [task] build: add imagebot #485 5.</description>
+    </item>
+  </channel>
+</rss>

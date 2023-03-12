@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/test.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/test.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/test.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/test.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/pages.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/pages.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/pages.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/pages.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/archetypes.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/archetypes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/archetypes.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/archetypes.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/migration.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/migration.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/migration.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/migration.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/markdown.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/markdown.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/markdown.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/markdown.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/syntaxhighlight.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/syntaxhighlight.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/syntaxhighlight.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/syntaxhighlight.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/menushortcuts.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/menushortcuts.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/menushortcuts.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/menushortcuts.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/i18n.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/i18n.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/i18n.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/i18n.html" />
+  </url>
+  <url>
+    <loc>https://example.com/cont/tags.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/cont/tags.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/cont/tags.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/cont/tags.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-1.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-1.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-1.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/requirements.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/requirements.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/requirements.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/requirements.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/installation.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/installation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/installation.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/installation.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/configuration.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/configuration.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/configuration.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/configuration.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-2.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-2.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-2.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/customization.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/customization.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/customization.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/customization.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/generator.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/generator.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/generator.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/generator.html" />
+  </url>
+  <url>
+    <loc>https://example.com/basics/history.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/basics/history.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/basics/history.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/basics/history.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-3.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-3.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-3.html" />
+  </url>
+  <url>
+    <loc>https://example.com/index.html</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/index.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/index.html" />
+  </url>
+  <url>
+    <loc>https://example.com/slides/myslide.html</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/slides.html</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/attachments.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/attachments.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/attachments.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/attachments.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/badge.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/badge.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/badge.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/badge.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/button.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/button.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/button.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/button.html" />
+  </url>
+  <url>
+    <loc>https://example.com/categories.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/categories.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/categories.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/categories.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/categories.html" />
+  </url>
+  <url>
+    <loc>https://example.com/tags/children.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/tags/children.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/tags/children.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/tags/children.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children.html" />
+  </url>
+  <url>
+    <loc>https://example.com/more/credits.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/more/credits.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/more/credits.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/more/credits.html" />
+  </url>
+  <url>
+    <loc>https://example.com/tags/documentation.html</loc>
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/expand.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/expand.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/expand.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/expand.html" />
+  </url>
+  <url>
+    <loc>https://example.com/tags/hidden.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/tags/hidden.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/tags/hidden.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/tags/hidden.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/icon.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/icon.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/icon.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/icon.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/include.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/include.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/include.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/include.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/math.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/math.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/math.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/math.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/mermaid.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/mermaid.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/mermaid.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/mermaid.html" />
+  </url>
+  <url>
+    <loc>https://example.com/tags/non-hidden.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/tags/non-hidden.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/tags/non-hidden.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/tags/non-hidden.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/notice.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/notice.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/notice.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/notice.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-1/children-1-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-1/children-1-1.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-1/children-1-1.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-1/children-1-1.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-1/children-1-1/children-1-1-2.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-3.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-1/children-1-1/children-1-1-3.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-1/children-1-1/children-1-1-3.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/children/children-3/test3.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/children/children-3/test3.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/children/children-3/test3.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/children/children-3/test3.html" />
+  </url>
+  <url>
+    <loc>https://example.com/more/showcase.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/more/showcase.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/more/showcase.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/more/showcase.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/siteparam.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/siteparam.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/siteparam.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/siteparam.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/swagger.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/swagger.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/swagger.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/swagger.html" />
+  </url>
+  <url>
+    <loc>https://example.com/shortcodes/tabs.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/shortcodes/tabs.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/shortcodes/tabs.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/shortcodes/tabs.html" />
+  </url>
+  <url>
+    <loc>https://example.com/tags.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/tags.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/tags.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/tags.html" />
+    <xhtml:link rel="alternate" hreflang="pir" href="https://example.com/pir/tags.html" />
+  </url>
+  <url>
+    <loc>https://example.com/tags/tutorial-stuff.html</loc>
+  </url>
+</urlset>

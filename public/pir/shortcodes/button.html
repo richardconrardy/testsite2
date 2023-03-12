@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pir" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.111.2">
+    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Richard Conrardy">
+    <title>Button :: Cap&#39;n Hugo Relearrrn Theme</title>
+    <link href="https://example.com/shortcodes/button.html" rel="alternate" hreflang="x-default">
+    <link href="https://example.com/shortcodes/button.html" rel="alternate" hreflang="en">
+    <link href="https://example.com/pir/shortcodes/button.html" rel="alternate" hreflang="pir">
+    <link href="../../pir/shortcodes/button/index.xml" rel="alternate" type="application/rss+xml" title="Button :: Cap&#39;n Hugo Relearrrn Theme">
+    <link href="../../pir/shortcodes/button/index.print.html" rel="alternate" type="text/html" title="Button :: Cap&#39;n Hugo Relearrrn Theme">
+    <link href="../../images/logo.svg?1678609873" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css?1678609873" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1678609873" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1678609873" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1678609873" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1678609873" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1678609873" rel="stylesheet">
+    <link href="../../css/fonts.css?1678609873" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1678609873" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1678609873" rel="stylesheet">
+    <link href="../../css/theme-phbern.css?1678609873" rel="stylesheet" id="variant-style">
+    <link href="../../css/variant.css?1678609873" rel="stylesheet">
+    <link href="../../css/print.css?1678609873" rel="stylesheet" media="print">
+    <link href="../../css/ie.css?1678609873" rel="stylesheet">
+    <script src="../../js/url.js?1678609873"></script>
+    <script src="../../js/variant.js?1678609873"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../pir/index.search.js";
+      var root_url="../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy t\u0027 clipboard';
+      window.T_Copied_to_clipboard = 'Copied t\u0027 clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link t\u0027 clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link t\u0027 clipboard!';
+      window.T_No_results_found = 'No rrresults found fer \u0022{0}\u0022';
+      window.T_N_results_found = '{1} rrresults found fer \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/example.com/';
+      window.variants && variants.init( [ 'phbern', 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
+    </script>
+    <style>
+      #body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="../../pir/shortcodes/button.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="../../pir/shortcodes/children.html" title="Children (&#129104;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="../../pir/shortcodes/badge.html" title="Badge (&#129106;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link topbar-link" title='Prrrint whole chapterrr (CTRL+ALT+p)' href="../../pir/shortcodes/button/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table o&#39; Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../pir/index.html"><span itemprop="name">Cap&#39;n Hugo Relearrrn Theme</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../pir/shortcodes.html"><span itemprop="name">Shorrrtcodes</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Button</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#parameter">Parameter</a></li>
+      </ul>
+    </li>
+    <li><a href="#examples">Examples</a>
+      <ul>
+        <li><a href="#style">Style</a></li>
+        <li><a href="#icon">Ay'con</a></li>
+        <li><a href="#target">Target</a></li>
+        <li><a href="#other">Other</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="button">Button</h1>
+
+
+<p>Th' <code>button</code> shortcode displays a click'ble button wit' adjust'ble color, title an' ay'con.</p>
+<p>
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle warning">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-dragon"></i>
+    Get Cap'n Hugo
+  </a>
+</span></p>
+<h2 id="usage">Usage</h2>
+<p>While th' examples be us'n shorrrtcodes wit' named parameter ye be free t' also call this shortcode from yer own partials.</p>
+
+<div class="tab-panel" data-tab-group="shortcode-parameter">
+  <div class="tab-nav">
+    <button
+      data-tab-item="shortcode"
+      class="tab-nav-button active"
+      onclick="switchTab('shortcode-parameter','shortcode')"
+    >
+      <span>shortcode</span></button>
+    <button
+      data-tab-item="partial"
+      class="tab-nav-button"
+      onclick="switchTab('shortcode-parameter','partial')"
+    >
+      <span>partial</span></button>
+  </div>
+  <div class="tab-content">
+    <div
+      data-tab-item="shortcode"
+      class="tab-content-text active"
+    >
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;warning&#34;</span> <span class="nx">ay'con</span><span class="p">=</span><span class="s">&#34;dragon&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+    </div>
+    <div
+      data-tab-item="partial"
+      class="tab-content-text"
+    >
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">partial</span> <span class="s">&#34;shortcodes/button.html&#34;</span> <span class="p">(</span><span class="nx">dict</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;context&#34;</span> <span class="p">.</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;href&#34;</span> <span class="s">&#34;https://gohugo.io/&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;content&#34;</span> <span class="s">&#34;Get Hugo&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">partial</span> <span class="s">&#34;shortcodes/button.html&#34;</span> <span class="p">(</span><span class="nx">dict</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;context&#34;</span> <span class="p">.</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;href&#34;</span> <span class="s">&#34;https://gohugo.io/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;style&#34;</span> <span class="s">&#34;warning&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;icon&#34;</span> <span class="s">&#34;dragon&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;content&#34;</span> <span class="s">&#34;Get Hugo&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)}}</span>
+</span></span></code></pre></div>
+    </div>
+  </div>
+</div>
+<p>Once th' button be clicked, it opens another browser tab fer th' given URL.</p>
+<h3 id="parameter">Parameter</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:left">Default</th>
+<th style="text-align:left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>href</strong></td>
+<td style="text-align:left"><em>&lt;empty&gt;</em></td>
+<td style="text-align:left">Either th' destinat'n URL fer th' button or JavaScript code t' be executed on click. If this parameter be not set, th' button will do noth'n but be still displayed as click'ble.<br><br>- if start'n wit' <code>javascript:</code> all follow'n text will be executed 'n yer browser<br>- every other str'n will be interpreted as URL</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>style</strong></td>
+<td style="text-align:left"><code>transparent</code></td>
+<td style="text-align:left">Th' style scheme used fer th' button.<br><br>- by severity: <code>info</code>, <code>note</code>, <code>tip</code>, <code>warning</code><br>- by brand color: <code>primary</code>, <code>secondary</code>, <code>accent</code><br>- by color: <code>blue</code>, <code>green</code>, <code>grey</code>, <code>orange</code>, <code>red</code><br>- by special color: <code>default</code>, <code>transparent</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>color</strong></td>
+<td style="text-align:left">see notes</td>
+<td style="text-align:left">Th' <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank">CSS color value</a> t' be used. If not set, th' chosen color depends on th' <strong>style</strong>. Any given value will overwrite th' default.<br><br>- fer severity styles: a nice match'n color fer th' severity<br>- fer all other styles: th' correspond'n color</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ay'con</strong></td>
+<td style="text-align:left">see notes</td>
+<td style="text-align:left"><a href="../../pir/shortcodes/icon.html#finding-an-icon">Font Awesome ay'con name</a> set t' th' left o' th' title. Depend'n on th' <strong>style</strong> there may be a default ay'con. Any given value will overwrite th' default.<br><br>- fer severity styles: a nice match'n ay'con fer th' severity<br>- fer all other styles: <em>&lt;empty&gt;</em><br><br>If ye want no ay'con fer a severity style, ye have t' set this parameter t' <code>&quot; &quot;</code> (a non empty str'n filled wit' spaces)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>iconposit'n</strong></td>
+<td style="text-align:left"><code>left</code></td>
+<td style="text-align:left">Places th' ay'con t' th' <code>left</code> or <code>right</code> o' th' title.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>target</strong></td>
+<td style="text-align:left">see notes</td>
+<td style="text-align:left">Th' destinat'n frame/window if <strong>href</strong> be an URL. Otherwise th' parameter be not used. This behaves similar t' normal links. If th' parameter be not given it defaults t':<br><br>- th' sett'n o' <code>externalLinkTarget</code> or <code>_blank</code> if not set, fer any address start'n wit' <code>http://</code> or <code>https://</code><br>- no specific value fer all other links</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>type</strong></td>
+<td style="text-align:left">see notes</td>
+<td style="text-align:left">Th' <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-type" target="_blank">button type</a> if <strong>href</strong> be JavaScript. Otherwise th' parameter be not used. If th' parameter be not given it defaults t' <code>button</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><em><strong>&lt;content&gt;</strong></em></td>
+<td style="text-align:left">see notes</td>
+<td style="text-align:left">Arbitrary text fer th' button title. Depend'n on th' <strong>style</strong> there may be a default title. Any given value will overwrite th' default.<br><br>- fer severity styles: th' match'n title fer th' severity<br>- fer all other styles: <em>&lt;empty&gt;</em><br><br>If ye want no title fer a severity style, ye have t' set this parameter t' <code>&quot; &quot;</code> (a non empty str'n filled wit' spaces)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="examples">Examples</h2>
+<h3 id="style">Style</h3>
+<h4 id="by-severity">By Severity</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;note&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;tip&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;warning&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div><p>
+<span class="btn cstyle info">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-info-circle"></i>
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle note">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-exclamation-circle"></i>
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle tip">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-lightbulb"></i>
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle warning">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-exclamation-triangle"></i>
+    Get Cap'n Hugo
+  </a>
+</span></p>
+<h4 id="by-brand-colors">By Brand Colors</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;secondary&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;accent&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div><p>
+<span class="btn cstyle primary">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle secondary">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle accent">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span></p>
+<h4 id="by-color">By Color</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;blue&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;green&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;grey&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;orange&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div><p>
+<span class="btn cstyle blue">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle green">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle grey">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle orange">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle red">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span></p>
+<h4 id="by-special-color">By Special Color</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;default&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;transparent&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div><p>
+<span class="btn cstyle default">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span>
+
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+  </a>
+</span></p>
+<h3 id="icon">Ay'con</h3>
+<h4 id="to-the-left">T' th' Left</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">ay'con</span><span class="p">=</span><span class="s">&#34;download&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-download"></i>
+    Get Cap'n Hugo
+  </a>
+</span>
+<h4 id="to-the-right">T' th' Right</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">ay'con</span><span class="p">=</span><span class="s">&#34;download&#34;</span> <span class="nx">iconposit'n</span><span class="p">=</span><span class="s">&#34;right&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo
+    <i class="fa-fw fas fa-download"></i>
+  </a>
+</span>
+<h4 id="override-for-severity">Override fer Severity</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">ay'con</span><span class="p">=</span><span class="s">&#34;dragon&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;warning&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle warning">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-dragon"></i>
+    Get Cap'n Hugo
+  </a>
+</span>
+<h3 id="target">Target</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">target</span><span class="p">=</span><span class="s">&#34;_self&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span> <span class="nx">'n</span> <span class="nx">same</span> <span class="nx">window</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Get</span> <span class="nx">Cap'n Hugo</span> <span class="nx">'n</span> <span class="nx">new</span> <span class="nx">Window</span><span class="o">/</span><span class="nf">Frame</span> <span class="p">(</span><span class="k">default</span><span class="p">){{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div><p>
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_self">
+    Get Cap'n Hugo 'n same Window/Frame
+  </a>
+</span>
+
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Cap'n Hugo 'n new Window/Frame (default)
+  </a>
+</span></p>
+<h3 id="other">Other</h3>
+<h4 id="with-user-defined-color-and-font-awesome-brand-icon">Wit' User-Defined Color an' Font Awesome Brand Ay'con</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">color</span><span class="p">=</span><span class="s">&#34;fuchsia&#34;</span> <span class="nx">ay'con</span><span class="p">=</span><span class="s">&#34;fab fa-hackerrank&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Cap'n Hugo</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle default" style="--VARIABLE-BOX-color: fuchsia;">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fab fa-hackerrank"></i>
+    Cap'n Hugo
+  </a>
+</span>
+<h4 id="severity-style-with-all-defaults">Severity Style wit' All Defaults</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;https://gohugo.io/&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;tip&#34;</span> <span class="o">%</span><span class="p">}}{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle tip">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-lightbulb"></i>
+    Smarrrt Arrrse
+  </a>
+</span>
+<h4 id="button-to-internal-page">Button t' Internal Plank</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;/index.html&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Home</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle transparent">
+  <a href="../../pir/index.html">
+    Home
+  </a>
+</span>
+<h4 id="button-with-javascript-action">Button wit' JavaScript Act'n</h4>
+<p>If yer JavaScript act'n does not change th' focus afterwards, make sure t' call <code>this.blur()</code> 'n th' end t' unselect th' button.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">button</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span> <span class="nx">ay'con</span><span class="p">=</span><span class="s">&#34;bullhorn&#34;</span> <span class="nx">href</span><span class="p">=</span><span class="s">&#34;javascript:alert(&#39;Hello world!&#39;);this.blur();&#34;</span> <span class="o">%</span><span class="p">}}</span><span class="nx">Shout</span> <span class="nx">it</span> <span class="nx">out</span><span class="p">{{</span><span class="o">%</span> <span class="o">/</span><span class="nx">button</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<span class="btn cstyle primary">
+  <button onclick="alert(&#39;Hello world!&#39;);this.blur();" type="button">
+    <i class="fa-fw fas fa-bullhorn"></i>
+    Shout it out
+  </button>
+</span>
+<h4 id="button-within-a-form-element">Button within a <code>form</code> Element</h4>
+<p>T' use native HTML elements 'n yer Marrrkdown, add this 'n yer <code>config.toml</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">marrrkup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">form</span> <span class="na">act'n</span><span class="o">=</span><span class="s">&#34;../../search.html&#34;</span> <span class="na">method</span><span class="o">=</span><span class="s">&#34;get&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;search-by-detail&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;search-by&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;search&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  {{% button type=&#34;submit&#34; style=&#34;secondary&#34; icon=&#34;search&#34; %}}Search{{% /button %}}
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</span></span></code></pre></div><form action="../../search.html" method="get">
+  <div class="searchform" style="width: 20vw;">
+    <input name="search-by-detail" class="search-by" type="search" placeholder="Search...">
+    
+<span class="btn cstyle secondary">
+  <button type="submit">
+    <i class="fa-fw fas fa-search"></i>
+    Search
+  </button>
+</span>
+  </div>
+</form>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation showVisitedLinks">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+ <img src="https://www.phbern.ch/themes/custom/phbern/logo-mobile.svg" alt="PHBern Logo">
+
+        </div>
+        <form action="../../pir/search.html" method="get"><div class="searchbox default-animation">
+          <button type="submit" title="Searrrch (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="search-by">Searrrch</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Searrrch...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div></form>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="../../js/auto-complete.js?1678609874" defer></script>
+        <script src="../../js/lunr/lunr.min.js?1678609874" defer></script>
+        <script src="../../js/lunr/lunr.stemmer.support.min.js?1678609874" defer></script>
+        <script src="../../js/lunr/lunr.multi.min.js?1678609874" defer></script>
+        <script src="../../js/lunr/lunr.en.min.js?1678609874" defer></script>
+        <script src="../../js/search.js?1678609874" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics enlarge morespace collapsible-menu">
+          <li data-nav-id="/pir/basics.html" class=""><input type="checkbox" id="section-182650db393a58ea8a0385f10a515d92" aria-controls="subsections-182650db393a58ea8a0385f10a515d92"><label for="section-182650db393a58ea8a0385f10a515d92"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Basics</span></label><a class="padding" href="../../pir/basics.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> 
+Basics<i class="fas fa-check read-icon"></i></a><ul id="subsections-182650db393a58ea8a0385f10a515d92" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/basics/migration.html" class=""><a class="padding" href="../../pir/basics/migration.html">
+What&#39;s New<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/basics/requirements.html" class=""><a class="padding" href="../../pir/basics/requirements.html">
+Requirrrements<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/basics/installation.html" class=""><a class="padding" href="../../pir/basics/installation.html">
+Installat&#39;n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/basics/configuration.html" class=""><a class="padding" href="../../pir/basics/configuration.html">
+Configurrrat&#39;n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/basics/customization.html" class=""><a class="padding" href="../../pir/basics/customization.html">
+Customizat&#39;n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/basics/generator.html" class=""><a class="padding" href="../../pir/basics/generator.html">
+Stylesheet generrrat&#39;r<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/basics/history.html" class=""><a class="padding" href="../../pir/basics/history.html">
+Historrry<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/pir/cont.html" class=""><input type="checkbox" id="section-4074c32ab128bf79d499f2f6ddf50674" aria-controls="subsections-4074c32ab128bf79d499f2f6ddf50674"><label for="section-4074c32ab128bf79d499f2f6ddf50674"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Rambl&#39;n</span></label><a class="padding" href="../../pir/cont.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> 
+Rambl&#39;n<i class="fas fa-check read-icon"></i></a><ul id="subsections-4074c32ab128bf79d499f2f6ddf50674" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/cont/pages.html" class=""><a class="padding" href="../../pir/cont/pages.html">
+Planks orrrganizat&#39;n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/cont/archetypes.html" class=""><a class="padding" href="../../pir/cont/archetypes.html">
+Arrrchetypes<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/cont/markdown.html" class=""><a class="padding" href="../../pir/cont/markdown.html">
+Marrrkdown rules<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/cont/syntaxhighlight.html" class=""><a class="padding" href="../../pir/cont/syntaxhighlight.html">
+Code highlight&#39;n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/cont/menushortcuts.html" class=""><a class="padding" href="../../pir/cont/menushortcuts.html">
+Menu extrrra shorrrtcuts<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/cont/i18n.html" class=""><a class="padding" href="../../pir/cont/i18n.html">
+Multilingual an&#39; i18n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/cont/tags.html" class=""><a class="padding" href="../../pir/cont/tags.html">
+Tags<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/pir/shortcodes.html" class="parent "><input type="checkbox" id="section-215953719902243a01571a1ede64aeeb" aria-controls="subsections-215953719902243a01571a1ede64aeeb" checked><label for="section-215953719902243a01571a1ede64aeeb"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Shorrrtcodes</span></label><a class="padding" href="../../pir/shortcodes.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">3.</b> 
+Shorrrtcodes<i class="fas fa-check read-icon"></i></a><ul id="subsections-215953719902243a01571a1ede64aeeb" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/shortcodes/attachments.html" class=""><a class="padding" href="../../pir/shortcodes/attachments.html">
+Attachments<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/badge.html" class=""><a class="padding" href="../../pir/shortcodes/badge.html">
+Badge<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/button.html" class="active"><a class="padding" href="../../pir/shortcodes/button.html">
+Button<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/children.html" class=""><input type="checkbox" id="section-05de666a6804433386d9009e44fa7aa3" aria-controls="subsections-05de666a6804433386d9009e44fa7aa3"><label for="section-05de666a6804433386d9009e44fa7aa3"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Children</span></label><a class="padding" href="../../pir/shortcodes/children.html">
+Children<i class="fas fa-check read-icon"></i></a><ul id="subsections-05de666a6804433386d9009e44fa7aa3" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/shortcodes/children/test.html" class=""><a class="padding" href="../../pir/shortcodes/children/test.html">
+Plank X<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/children/children-1.html" class=""><input type="checkbox" id="section-5c6c78bc0635ef1f61fdb91197081411" aria-controls="subsections-5c6c78bc0635ef1f61fdb91197081411"><label for="section-5c6c78bc0635ef1f61fdb91197081411"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Plank 1</span></label><a class="padding" href="../../pir/shortcodes/children/children-1.html">
+Plank 1<i class="fas fa-check read-icon"></i></a><ul id="subsections-5c6c78bc0635ef1f61fdb91197081411" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/shortcodes/children/children-1/children-1-1.html" class="alwaysopen"><input type="checkbox" id="section-be87ceb25a7988952eb9556a69f3cbdf" aria-controls="subsections-be87ceb25a7988952eb9556a69f3cbdf" checked><label for="section-be87ceb25a7988952eb9556a69f3cbdf"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Plank 1-1</span></label><a class="padding" href="../../pir/shortcodes/children/children-1/children-1-1.html">
+Plank 1-1<i class="fas fa-check read-icon"></i></a><ul id="subsections-be87ceb25a7988952eb9556a69f3cbdf" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/shortcodes/children/children-1/children-1-1/children-1-1-2.html" class=""><input type="checkbox" id="section-989ea17e090bb9681da73b58575dcced" aria-controls="subsections-989ea17e090bb9681da73b58575dcced"><label for="section-989ea17e090bb9681da73b58575dcced"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Plank 1-1-2</span></label><a class="padding" href="../../pir/shortcodes/children/children-1/children-1-1/children-1-1-2.html">
+Plank 1-1-2<i class="fas fa-check read-icon"></i></a><ul id="subsections-989ea17e090bb9681da73b58575dcced" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html" class=""><a class="padding" href="../../pir/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html">
+Plank 1-1-2-1<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html" class=""><a class="padding" href="../../pir/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html">
+Plank 1-1-2-2<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/pir/shortcodes/children/children-1/children-1-1/children-1-1-3.html" class=""><a class="padding" href="../../pir/shortcodes/children/children-1/children-1-1/children-1-1-3.html">
+Plank 1-1-3<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/pir/shortcodes/children/children-2.html" class=""><a class="padding" href="../../pir/shortcodes/children/children-2.html">
+Plank 2<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/children/children-3.html" class=""><input type="checkbox" id="section-085f961452d7baa981ace00de789c321" aria-controls="subsections-085f961452d7baa981ace00de789c321"><label for="section-085f961452d7baa981ace00de789c321"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Plank 3</span></label><a class="padding" href="../../pir/shortcodes/children/children-3.html">
+Plank 3<i class="fas fa-check read-icon"></i></a><ul id="subsections-085f961452d7baa981ace00de789c321" class="morespace collapsible-menu">
+          <li data-nav-id="/pir/shortcodes/children/children-3/test3.html" class=""><a class="padding" href="../../pir/shortcodes/children/children-3/test3.html">
+Plank 3-1<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/pir/shortcodes/expand.html" class=""><a class="padding" href="../../pir/shortcodes/expand.html">
+Expand<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/icon.html" class=""><a class="padding" href="../../pir/shortcodes/icon.html">
+Icon<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/include.html" class=""><a class="padding" href="../../pir/shortcodes/include.html">
+Include<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/math.html" class=""><a class="padding" href="../../pir/shortcodes/math.html">
+Math<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/mermaid.html" class=""><a class="padding" href="../../pir/shortcodes/mermaid.html">
+Merrrmaid<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/notice.html" class=""><a class="padding" href="../../pir/shortcodes/notice.html">
+Notice<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/siteparam.html" class=""><a class="padding" href="../../pir/shortcodes/siteparam.html">
+Ship param<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/swagger.html" class=""><a class="padding" href="../../pir/shortcodes/swagger.html">
+Swaggerrr<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/pir/shortcodes/tabs.html" class=""><a class="padding" href="../../pir/shortcodes/tabs.html">
+Tabs<i class="fas fa-check read-icon"></i></a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title padding"></div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/McShelby/hugo-theme-relearn"><i class='fab fa-fw fa-github'></i> GitHub repo</a></li>
+            <li><a class="padding" href="../../pir/more/showcase.html"><i class='fas fa-fw fa-camera'></i> Showcases</a></li>
+            <li><a class="padding" href="https://gohugo.io/"><i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n</a></li>
+            <li><a class="padding" href="../../pir/more/credits.html"><i class='fas fa-fw fa-bullhorn'></i> Crrredits</a></li>
+            <li><a class="padding" href="../../pir/tags.html"><i class='fas fa-fw fa-tags'></i> Arrr! Tags</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks"></div>
+        <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch showVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-language">Language</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option lang="en" id="en" value="/shortcodes/button.html">English</option>
+                    <option lang="pir" id="pir" value="/pir/shortcodes/button.html" selected>Arrr! ☠ Pirrrates ☠</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-variant">Theme</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="phbern" value="phbern" selected>Phbern</option>
+                    <option id="auto" value="auto">Auto</option>
+                    <option id="relearn-bright" value="relearn-bright">Relearn Bright</option>
+                    <option id="relearn-light" value="relearn-light">Relearn Light</option>
+                    <option id="relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="learn" value="learn">Learn</option>
+                    <option id="neon" value="neon">Neon</option>
+                    <option id="blue" value="blue">Blue</option>
+                    <option id="green" value="green">Green</option>
+                    <option id="red" value="red">Red</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks showVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i><span>&nbsp;</span>Clear Historrry</button></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter">
+        </div>
+      </div>
+    </aside>
+    <script src="../../js/clipboard.min.js?1678609874" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1678609874" defer></script>
+    <script src="../../js/theme.js?1678609874" defer></script>
+  </body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.111.2">
+    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="description" content="List the child pages of a page">
+    <meta name="author" content="Richard Conrardy">
+    <title>Children :: Hugo Relearn Theme</title>
+    <link href="https://example.com/shortcodes/children.html" rel="alternate" hreflang="x-default">
+    <link href="https://example.com/shortcodes/children.html" rel="alternate" hreflang="en">
+    <link href="https://example.com/pir/shortcodes/children.html" rel="alternate" hreflang="pir">
+    <link href="../shortcodes/children/index.xml" rel="alternate" type="application/rss+xml" title="Children :: Hugo Relearn Theme">
+    <link href="../shortcodes/children/index.print.html" rel="alternate" type="text/html" title="Children :: Hugo Relearn Theme">
+    <link href="../images/logo.svg?1678609873" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../css/fontawesome-all.min.css?1678609873" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1678609873" rel="stylesheet"></noscript>
+    <link href="../css/nucleus.css?1678609873" rel="stylesheet">
+    <link href="../css/auto-complete.css?1678609873" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1678609873" rel="stylesheet"></noscript>
+    <link href="../css/perfect-scrollbar.min.css?1678609873" rel="stylesheet">
+    <link href="../css/fonts.css?1678609873" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1678609873" rel="stylesheet"></noscript>
+    <link href="../css/theme.css?1678609873" rel="stylesheet">
+    <link href="../css/theme-phbern.css?1678609873" rel="stylesheet" id="variant-style">
+    <link href="../css/variant.css?1678609873" rel="stylesheet">
+    <link href="../css/print.css?1678609873" rel="stylesheet" media="print">
+    <link href="../css/ie.css?1678609873" rel="stylesheet">
+    <script src="../js/url.js?1678609873"></script>
+    <script src="../js/variant.js?1678609873"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../index.search.js";
+      var root_url="../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/example.com/';
+      window.variants && variants.init( [ 'phbern', 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
+    </script>
+    <style>
+      #body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="../shortcodes/children.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="../shortcodes/children/test.html" title="page X (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="../shortcodes/button.html" title="Button (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link topbar-link" title='Print whole chapter (CTRL+ALT+p)' href="../shortcodes/children/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../index.html"><span itemprop="name">Hugo Relearn Theme</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../shortcodes.html"><span itemprop="name">Shortcodes</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Children</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#parameter">Parameter</a></li>
+      </ul>
+    </li>
+    <li><a href="#examples">Examples</a>
+      <ul>
+        <li><a href="#all-default">All Default</a></li>
+        <li><a href="#with-description">With Description</a></li>
+        <li><a href="#infinite-depth-and-hidden-pages">Infinite Depth and Hidden Pages</a></li>
+        <li><a href="#heading-styles-for-container-and-elements">Heading Styles for Container and Elements</a></li>
+        <li><a href="#divs-for-group-and-element-styles">Divs for Group and Element Styles</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="children">Children</h1>
+
+<p>The <code>children</code> shortcode lists the child pages of the current page and its descendants.</p>
+
+<ul class="children children-li children-sort-weight">
+	
+<li><a href="../shortcodes/children/test.html">page X</a></li>
+<li><a href="../shortcodes/children/children-1.html">page 1</a></li>
+<li><a href="../shortcodes/children/children-2.html">page 2</a></li>
+<li><a href="../shortcodes/children/children-3.html">page 3</a></li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>While the examples are using shortcodes with named parameter you are free to also call this shortcode from your own partials.</p>
+
+<div class="tab-panel" data-tab-group="shortcode-parameter">
+  <div class="tab-nav">
+    <button
+      data-tab-item="shortcode"
+      class="tab-nav-button active"
+      onclick="switchTab('shortcode-parameter','shortcode')"
+    >
+      <span>shortcode</span></button>
+    <button
+      data-tab-item="partial"
+      class="tab-nav-button"
+      onclick="switchTab('shortcode-parameter','partial')"
+    >
+      <span>partial</span></button>
+  </div>
+  <div class="tab-content">
+    <div
+      data-tab-item="shortcode"
+      class="tab-content-text active"
+    >
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">children</span> <span class="nx">sort</span><span class="p">=</span><span class="s">&#34;weight&#34;</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+    </div>
+    <div
+      data-tab-item="partial"
+      class="tab-content-text"
+    >
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">partial</span> <span class="s">&#34;shortcodes/children.html&#34;</span> <span class="p">(</span><span class="nx">dict</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;context&#34;</span> <span class="p">.</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;sort&#34;</span> <span class="s">&#34;weight&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)}}</span>
+</span></span></code></pre></div>
+    </div>
+  </div>
+</div>
+<h3 id="parameter">Parameter</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:left">Default</th>
+<th style="text-align:left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>containerstyle</strong></td>
+<td style="text-align:left"><code>ul</code></td>
+<td style="text-align:left">Choose the style used to group all children. It could be any HTML tag name.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>style</strong></td>
+<td style="text-align:left"><code>li</code></td>
+<td style="text-align:left">Choose the style used to display each descendant. It could be any HTML tag name.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>showhidden</strong></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:left">When <code>true</code>, child pages hidden from the menu will be displayed as well.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>description</strong></td>
+<td style="text-align:left"><code>false</code></td>
+<td style="text-align:left">When <code>true</code> shows a short text under each page in the list. When no description or summary exists for the page, the first 70 words of the content is taken - <a href="https://gohugo.io/content/summaries/" target="_blank">read more info about summaries on gohugo.io</a>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>depth</strong></td>
+<td style="text-align:left"><code>1</code></td>
+<td style="text-align:left">The depth of descendants to display. For example, if the value is <code>2</code>, the shortcode will display two levels of child pages.  To get all descendants, set this value to a high  number eg. <code>999</code>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>sort</strong></td>
+<td style="text-align:left">see notes</td>
+<td style="text-align:left">The sort order of the displayed list.<br><br>If not set it is sorted by the <a href="../basics/configuration.html#global-site-parameters"><code>ordersectionsby</code></a> setting of the site and the pages frontmatter<br><br>- <code>weight</code>: to sort on menu order<br>- <code>title</code>: to sort alphabetically on menu label.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="examples">Examples</h2>
+<h3 id="all-default">All Default</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">children</span>  <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<ul class="children children-li children-sort-">
+	
+<li><a href="../shortcodes/children/test.html">page X</a></li>
+<li><a href="../shortcodes/children/children-1.html">page 1</a></li>
+<li><a href="../shortcodes/children/children-2.html">page 2</a></li>
+<li><a href="../shortcodes/children/children-3.html">page 3</a></li>
+</ul>
+<h3 id="with-description">With Description</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">children</span> <span class="nx">description</span><span class="p">=</span><span class="s">&#34;true&#34;</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<ul class="children children-li children-sort-">
+	
+<li><a href="../shortcodes/children/test.html">page X</a><p>This is a plain page test, and the beginning of a YAML multiline description...
+</p></li>
+<li><a href="../shortcodes/children/children-1.html">page 1</a><p>This is a demo child page</p></li>
+<li><a href="../shortcodes/children/children-2.html">page 2</a><p>This is a demo child page with no description.
+So its content is used as description.</p></li>
+<li><a href="../shortcodes/children/children-3.html">page 3</a><p>This is a demo child page</p></li>
+</ul>
+<h3 id="infinite-depth-and-hidden-pages">Infinite Depth and Hidden Pages</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">children</span> <span class="nx">depth</span><span class="p">=</span><span class="s">&#34;999&#34;</span> <span class="nx">showhidden</span><span class="p">=</span><span class="s">&#34;true&#34;</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<ul class="children children-li children-sort-">
+	
+<li><a href="../shortcodes/children/test.html">page X</a><ul>
+	</ul></li>
+<li><a href="../shortcodes/children/children-1.html">page 1</a><ul>
+	
+<li><a href="../shortcodes/children/children-1/children-1-1.html">page 1-1</a><ul>
+	
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-1.html">page 1-1-1 (hidden)</a><ul>
+	
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1.html">page 1-1-1-1</a><ul>
+	
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1.html">page 1-1-1-1-1 (hidden)</a><ul>
+	
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/children-1-1-1-1-1-1.html">page 1-1-1-1-1-1</a><ul>
+	</ul></li></ul></li></ul></li></ul></li>
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-2.html">page 1-1-2</a><ul>
+	
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html">page 1-1-2-1</a><ul>
+	</ul></li>
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html">page 1-1-2-2</a><ul>
+	</ul></li></ul></li>
+<li><a href="../shortcodes/children/children-1/children-1-1/children-1-1-3.html">page 1-1-3</a><ul>
+	</ul></li></ul></li></ul></li>
+<li><a href="../shortcodes/children/children-2.html">page 2</a><ul>
+	</ul></li>
+<li><a href="../shortcodes/children/children-3.html">page 3</a><ul>
+	
+<li><a href="../shortcodes/children/children-3/test3.html">page 3-1</a><ul>
+	</ul></li></ul></li>
+<li><a href="../shortcodes/children/children-4.html">page 4 (hidden)</a><ul>
+	</ul></li>
+</ul>
+<h3 id="heading-styles-for-container-and-elements">Heading Styles for Container and Elements</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">children</span> <span class="nx">containerstyle</span><span class="p">=</span><span class="s">&#34;div&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;h2&#34;</span> <span class="nx">depth</span><span class="p">=</span><span class="s">&#34;3&#34;</span> <span class="nx">description</span><span class="p">=</span><span class="s">&#34;true&#34;</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<div class="children children-h2 children-sort-">
+	
+<h2><a href="../shortcodes/children/test.html">page X</a></h2><p>This is a plain page test, and the beginning of a YAML multiline description...
+</p>
+	
+<h2><a href="../shortcodes/children/children-1.html">page 1</a></h2><p>This is a demo child page</p>
+	
+<h3><a href="../shortcodes/children/children-1/children-1-1.html">page 1-1</a></h3><p>This is a demo child page</p>
+	
+<h4><a href="../shortcodes/children/children-1/children-1-1/children-1-1-2.html">page 1-1-2</a></h4><p>This is a demo child page</p>
+<h4><a href="../shortcodes/children/children-1/children-1-1/children-1-1-3.html">page 1-1-3</a></h4><p>This is a demo child page</p>
+<h2><a href="../shortcodes/children/children-2.html">page 2</a></h2><p>This is a demo child page with no description.
+So its content is used as description.</p>
+	
+<h2><a href="../shortcodes/children/children-3.html">page 3</a></h2><p>This is a demo child page</p>
+	
+<h3><a href="../shortcodes/children/children-3/test3.html">page 3-1</a></h3><p>This is a plain page test nested in a parent</p>
+	
+</div>
+<h3 id="divs-for-group-and-element-styles">Divs for Group and Element Styles</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">%</span> <span class="nx">children</span> <span class="nx">containerstyle</span><span class="p">=</span><span class="s">&#34;div&#34;</span> <span class="nx">style</span><span class="p">=</span><span class="s">&#34;div&#34;</span> <span class="nx">depth</span><span class="p">=</span><span class="s">&#34;3&#34;</span> <span class="o">%</span><span class="p">}}</span>
+</span></span></code></pre></div>
+<div class="children children-div children-sort-">
+	
+<div><a href="../shortcodes/children/test.html">page X</a></div>
+	
+<div><a href="../shortcodes/children/children-1.html">page 1</a></div>
+	
+<div><a href="../shortcodes/children/children-1/children-1-1.html">page 1-1</a></div>
+	
+<div><a href="../shortcodes/children/children-1/children-1-1/children-1-1-2.html">page 1-1-2</a></div>
+<div><a href="../shortcodes/children/children-1/children-1-1/children-1-1-3.html">page 1-1-3</a></div>
+<div><a href="../shortcodes/children/children-2.html">page 2</a></div>
+	
+<div><a href="../shortcodes/children/children-3.html">page 3</a></div>
+	
+<div><a href="../shortcodes/children/children-3/test3.html">page 3-1</a></div>
+	
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation showVisitedLinks">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+ <img src="https://www.phbern.ch/themes/custom/phbern/logo-mobile.svg" alt="PHBern Logo">
+
+        </div>
+        <form action="../search.html" method="get"><div class="searchbox default-animation">
+          <button type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="search-by">Search</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div></form>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="../js/auto-complete.js?1678609873" defer></script>
+        <script src="../js/lunr/lunr.min.js?1678609873" defer></script>
+        <script src="../js/lunr/lunr.stemmer.support.min.js?1678609873" defer></script>
+        <script src="../js/lunr/lunr.multi.min.js?1678609873" defer></script>
+        <script src="../js/lunr/lunr.en.min.js?1678609873" defer></script>
+        <script src="../js/search.js?1678609873" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics enlarge morespace collapsible-menu">
+          <li data-nav-id="/basics.html" class=""><input type="checkbox" id="section-df6aa773bd1fbc430ade79f1764e4ce7" aria-controls="subsections-df6aa773bd1fbc430ade79f1764e4ce7"><label for="section-df6aa773bd1fbc430ade79f1764e4ce7"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Basics</span></label><a class="padding" href="../basics.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> 
+Basics<i class="fas fa-check read-icon"></i></a><ul id="subsections-df6aa773bd1fbc430ade79f1764e4ce7" class="morespace collapsible-menu">
+          <li data-nav-id="/basics/migration.html" class=""><a class="padding" href="../basics/migration.html">
+What&#39;s New<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/basics/requirements.html" class=""><a class="padding" href="../basics/requirements.html">
+Requirements<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/basics/installation.html" class=""><a class="padding" href="../basics/installation.html">
+Installation<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/basics/configuration.html" class=""><a class="padding" href="../basics/configuration.html">
+Configuration<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/basics/customization.html" class=""><a class="padding" href="../basics/customization.html">
+Customization<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/basics/generator.html" class=""><a class="padding" href="../basics/generator.html">
+Stylesheet generator<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/basics/history.html" class=""><a class="padding" href="../basics/history.html">
+History<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/cont.html" class=""><input type="checkbox" id="section-2291d2894a4301fd505172f85eca0c0a" aria-controls="subsections-2291d2894a4301fd505172f85eca0c0a"><label for="section-2291d2894a4301fd505172f85eca0c0a"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Content</span></label><a class="padding" href="../cont.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> 
+Content<i class="fas fa-check read-icon"></i></a><ul id="subsections-2291d2894a4301fd505172f85eca0c0a" class="morespace collapsible-menu">
+          <li data-nav-id="/cont/pages.html" class=""><a class="padding" href="../cont/pages.html">
+Pages organization<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/cont/archetypes.html" class=""><a class="padding" href="../cont/archetypes.html">
+Archetypes<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/cont/markdown.html" class=""><a class="padding" href="../cont/markdown.html">
+Markdown syntax<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/cont/syntaxhighlight.html" class=""><a class="padding" href="../cont/syntaxhighlight.html">
+Code highlighting<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/cont/menushortcuts.html" class=""><a class="padding" href="../cont/menushortcuts.html">
+Menu extra shortcuts<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/cont/i18n.html" class=""><a class="padding" href="../cont/i18n.html">
+Multilingual and i18n<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/cont/tags.html" class=""><a class="padding" href="../cont/tags.html">
+Tags<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/shortcodes.html" class="parent "><input type="checkbox" id="section-c0549379138a5c256f6c0600d532453f" aria-controls="subsections-c0549379138a5c256f6c0600d532453f" checked><label for="section-c0549379138a5c256f6c0600d532453f"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Shortcodes</span></label><a class="padding" href="../shortcodes.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">3.</b> 
+Shortcodes<i class="fas fa-check read-icon"></i></a><ul id="subsections-c0549379138a5c256f6c0600d532453f" class="morespace collapsible-menu">
+          <li data-nav-id="/shortcodes/attachments.html" class=""><a class="padding" href="../shortcodes/attachments.html">
+Attachments<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/badge.html" class=""><a class="padding" href="../shortcodes/badge.html">
+Badge<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/button.html" class=""><a class="padding" href="../shortcodes/button.html">
+Button<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/children.html" class="active parent "><input type="checkbox" id="section-efce957ff9dad000e250ff868aa3291d" aria-controls="subsections-efce957ff9dad000e250ff868aa3291d" checked><label for="section-efce957ff9dad000e250ff868aa3291d"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Children</span></label><a class="padding" href="../shortcodes/children.html">
+Children<i class="fas fa-check read-icon"></i></a><ul id="subsections-efce957ff9dad000e250ff868aa3291d" class="morespace collapsible-menu">
+          <li data-nav-id="/shortcodes/children/test.html" class=""><a class="padding" href="../shortcodes/children/test.html">
+page X<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/children/children-1.html" class=""><input type="checkbox" id="section-c27b80e9c4c5ceb911093893f4f00a2b" aria-controls="subsections-c27b80e9c4c5ceb911093893f4f00a2b"><label for="section-c27b80e9c4c5ceb911093893f4f00a2b"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu page 1</span></label><a class="padding" href="../shortcodes/children/children-1.html">
+page 1<i class="fas fa-check read-icon"></i></a><ul id="subsections-c27b80e9c4c5ceb911093893f4f00a2b" class="morespace collapsible-menu">
+          <li data-nav-id="/shortcodes/children/children-1/children-1-1.html" class="alwaysopen"><input type="checkbox" id="section-bc0c0185f32af18e77e51e4a5f0a3ba4" aria-controls="subsections-bc0c0185f32af18e77e51e4a5f0a3ba4" checked><label for="section-bc0c0185f32af18e77e51e4a5f0a3ba4"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu page 1-1</span></label><a class="padding" href="../shortcodes/children/children-1/children-1-1.html">
+page 1-1<i class="fas fa-check read-icon"></i></a><ul id="subsections-bc0c0185f32af18e77e51e4a5f0a3ba4" class="morespace collapsible-menu">
+          <li data-nav-id="/shortcodes/children/children-1/children-1-1/children-1-1-2.html" class=""><input type="checkbox" id="section-9c0a5b93d94f133c09f9cec9eec310a6" aria-controls="subsections-9c0a5b93d94f133c09f9cec9eec310a6"><label for="section-9c0a5b93d94f133c09f9cec9eec310a6"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu page 1-1-2</span></label><a class="padding" href="../shortcodes/children/children-1/children-1-1/children-1-1-2.html">
+page 1-1-2<i class="fas fa-check read-icon"></i></a><ul id="subsections-9c0a5b93d94f133c09f9cec9eec310a6" class="morespace collapsible-menu">
+          <li data-nav-id="/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html" class=""><a class="padding" href="../shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1.html">
+page 1-1-2-1<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html" class=""><a class="padding" href="../shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2.html">
+page 1-1-2-2<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/shortcodes/children/children-1/children-1-1/children-1-1-3.html" class=""><a class="padding" href="../shortcodes/children/children-1/children-1-1/children-1-1-3.html">
+page 1-1-3<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/shortcodes/children/children-2.html" class=""><a class="padding" href="../shortcodes/children/children-2.html">
+page 2<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/children/children-3.html" class=""><input type="checkbox" id="section-801eeaaa0748a0846cc1e95f3a734fb7" aria-controls="subsections-801eeaaa0748a0846cc1e95f3a734fb7"><label for="section-801eeaaa0748a0846cc1e95f3a734fb7"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu page 3</span></label><a class="padding" href="../shortcodes/children/children-3.html">
+page 3<i class="fas fa-check read-icon"></i></a><ul id="subsections-801eeaaa0748a0846cc1e95f3a734fb7" class="morespace collapsible-menu">
+          <li data-nav-id="/shortcodes/children/children-3/test3.html" class=""><a class="padding" href="../shortcodes/children/children-3/test3.html">
+page 3-1<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/shortcodes/expand.html" class=""><a class="padding" href="../shortcodes/expand.html">
+Expand<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/icon.html" class=""><a class="padding" href="../shortcodes/icon.html">
+Icon<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/include.html" class=""><a class="padding" href="../shortcodes/include.html">
+Include<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/math.html" class=""><a class="padding" href="../shortcodes/math.html">
+Math<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/mermaid.html" class=""><a class="padding" href="../shortcodes/mermaid.html">
+Mermaid<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/notice.html" class=""><a class="padding" href="../shortcodes/notice.html">
+Notice<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/siteparam.html" class=""><a class="padding" href="../shortcodes/siteparam.html">
+Site param<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/swagger.html" class=""><a class="padding" href="../shortcodes/swagger.html">
+Swagger<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/shortcodes/tabs.html" class=""><a class="padding" href="../shortcodes/tabs.html">
+Tabs<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/slides.html" class=""><a class="padding" href="../slides.html">
+Präsentationen<i class="fas fa-check read-icon"></i></a></li>
+        </ul>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks"></div>
+        <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch showVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-language">Language</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option lang="en" id="en" value="/shortcodes/children.html" selected>English</option>
+                    <option lang="pir" id="pir" value="/pir/shortcodes/children.html">Arrr! ☠ Pirrrates ☠</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-variant">Theme</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="phbern" value="phbern" selected>Phbern</option>
+                    <option id="auto" value="auto">Auto</option>
+                    <option id="relearn-bright" value="relearn-bright">Relearn Bright</option>
+                    <option id="relearn-light" value="relearn-light">Relearn Light</option>
+                    <option id="relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="learn" value="learn">Learn</option>
+                    <option id="neon" value="neon">Neon</option>
+                    <option id="blue" value="blue">Blue</option>
+                    <option id="green" value="green">Green</option>
+                    <option id="red" value="red">Red</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks showVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i><span>&nbsp;</span>Clear History</button></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter">
+        </div>
+      </div>
+    </aside>
+    <script src="../js/clipboard.min.js?1678609873" defer></script>
+    <script src="../js/perfect-scrollbar.min.js?1678609873" defer></script>
+    <script src="../js/theme.js?1678609873" defer></script>
+  </body>
+</html>
